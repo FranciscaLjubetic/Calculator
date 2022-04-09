@@ -73,7 +73,7 @@ public class palindromsandprimes {
         }
         
         if (n > 3){
-            for (int i= 3; i < n+2; i++){
+            for (int i= 3; i < n+1; i++){
                 int fib_i = fib.get(i-1)+ fib.get(i-2);
                 fib.add(fib_i);
             };
