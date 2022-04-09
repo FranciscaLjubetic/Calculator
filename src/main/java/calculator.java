@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 
-class main {
+class calculator {
     public static void main(String[] args) {
         Scanner lScanner = new Scanner(System.in);
         System.out.println("Enter the operation ( use + - * or /) and two numbers to calculate:");
